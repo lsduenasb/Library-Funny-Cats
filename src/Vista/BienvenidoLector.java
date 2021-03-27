@@ -13,15 +13,29 @@ import javax.swing.JFrame;
  *
  * @author Equipo
  */
-public class Bienvenido extends JFrame implements ActionListener{
-    public Bienvenido(){ //esta clase le pregunta al usuario que quiere realizar
-        this.setBounds(0, 0, 400,500);
-        this.setLayout(null);
-
+public class BienvenidoLector extends JFrame implements ActionListener{
+    public BienvenidoLector(){
+        crearVentana();
     }
-
+    
+     public void crearVentana(){
+        this.setBounds(0, 0, 380,500);
+        this.setLocationRelativeTo(this);
+        this.setLayout(null);
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setTitle("Bienvenido Lector");
+        crearComponentes();
+    }
+    
+    public void crearComponentes(){
+        
+        
+    }
+    
     @Override
     public void actionPerformed(ActionEvent e) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    
 }
