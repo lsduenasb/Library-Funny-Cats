@@ -75,7 +75,9 @@ public class TerminosYCondiciones extends JFrame implements ActionListener {
             b.setVisible(true);
             this.setVisible(false);
         }else if(e.getSource()==btnContinuar){
-            
+            IniciarSesion i=new IniciarSesion(); 
+            i.setVisible(true);
+            this.setVisible(false);
         }
     }
 

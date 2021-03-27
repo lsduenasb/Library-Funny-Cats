@@ -18,7 +18,7 @@ public class Registrarse extends JFrame implements ActionListener{
     public Registrarse(){
         this.setBounds(0, 0, 400,500);
         this.setLayout(null);
-        this.setVisible(true);
+
     }
 
     @Override

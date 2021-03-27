@@ -17,7 +17,7 @@ public class Bienvenido extends JFrame implements ActionListener{
     public Bienvenido(){ //esta clase le pregunta al usuario que quiere realizar
         this.setBounds(0, 0, 400,500);
         this.setLayout(null);
-        this.setVisible(true);
+
     }
 
     @Override
